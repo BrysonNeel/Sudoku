@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-
+<?import java.util.ArrayList?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <center>
@@ -254,4 +254,110 @@
         </menus>
       </MenuBar>
    </top>
+
+    <fx:define>
+        <ArrayList fx:id="gridsList">
+            <fx:reference source="grid1" />
+            <fx:reference source="grid2" />
+            <fx:reference source="grid3" />
+            <fx:reference source="grid4" />
+            <fx:reference source="grid5" />
+            <fx:reference source="grid6" />
+            <fx:reference source="grid7" />
+            <fx:reference source="grid8" />
+            <fx:reference source="grid9" />
+        </ArrayList>
+        <ArrayList fx:id="textFieldLists">
+            <fx:reference source="grid1_text1" />
+            <fx:reference source="grid1_text2" />
+            <fx:reference source="grid1_text3" />
+            <fx:reference source="grid1_text4" />
+            <fx:reference source="grid1_text5" />
+            <fx:reference source="grid1_text6" />
+            <fx:reference source="grid1_text7" />
+            <fx:reference source="grid1_text8" />
+            <fx:reference source="grid1_text9" />
+
+            <fx:reference source="grid2_text1" />
+            <fx:reference source="grid2_text2" />
+            <fx:reference source="grid2_text3" />
+            <fx:reference source="grid2_text4" />
+            <fx:reference source="grid2_text5" />
+            <fx:reference source="grid2_text6" />
+            <fx:reference source="grid2_text7" />
+            <fx:reference source="grid2_text8" />
+            <fx:reference source="grid2_text9" />
+
+            <fx:reference source="grid3_text1" />
+            <fx:reference source="grid3_text2" />
+            <fx:reference source="grid3_text3" />
+            <fx:reference source="grid3_text4" />
+            <fx:reference source="grid3_text5" />
+            <fx:reference source="grid3_text6" />
+            <fx:reference source="grid3_text7" />
+            <fx:reference source="grid3_text8" />
+            <fx:reference source="grid3_text9" />
+
+            <fx:reference source="grid4_text1" />
+            <fx:reference source="grid4_text2" />
+            <fx:reference source="grid4_text3" />
+            <fx:reference source="grid4_text4" />
+            <fx:reference source="grid4_text5" />
+            <fx:reference source="grid4_text6" />
+            <fx:reference source="grid4_text7" />
+            <fx:reference source="grid4_text8" />
+            <fx:reference source="grid4_text9" />
+
+            <fx:reference source="grid5_text1" />
+            <fx:reference source="grid5_text2" />
+            <fx:reference source="grid5_text3" />
+            <fx:reference source="grid5_text4" />
+            <fx:reference source="grid5_text5" />
+            <fx:reference source="grid5_text6" />
+            <fx:reference source="grid5_text7" />
+            <fx:reference source="grid5_text8" />
+            <fx:reference source="grid5_text9" />
+
+            <fx:reference source="grid6_text1" />
+            <fx:reference source="grid6_text2" />
+            <fx:reference source="grid6_text3" />
+            <fx:reference source="grid6_text4" />
+            <fx:reference source="grid6_text5" />
+            <fx:reference source="grid6_text6" />
+            <fx:reference source="grid6_text7" />
+            <fx:reference source="grid6_text8" />
+            <fx:reference source="grid6_text9" />
+
+            <fx:reference source="grid7_text1" />
+            <fx:reference source="grid7_text2" />
+            <fx:reference source="grid7_text3" />
+            <fx:reference source="grid7_text4" />
+            <fx:reference source="grid7_text5" />
+            <fx:reference source="grid7_text6" />
+            <fx:reference source="grid7_text7" />
+            <fx:reference source="grid7_text8" />
+            <fx:reference source="grid7_text9" />
+
+            <fx:reference source="grid8_text1" />
+            <fx:reference source="grid8_text2" />
+            <fx:reference source="grid8_text3" />
+            <fx:reference source="grid8_text4" />
+            <fx:reference source="grid8_text5" />
+            <fx:reference source="grid8_text6" />
+            <fx:reference source="grid8_text7" />
+            <fx:reference source="grid8_text8" />
+            <fx:reference source="grid8_text9" />
+
+            <fx:reference source="grid9_text1" />
+            <fx:reference source="grid9_text2" />
+            <fx:reference source="grid9_text3" />
+            <fx:reference source="grid9_text4" />
+            <fx:reference source="grid9_text5" />
+            <fx:reference source="grid9_text6" />
+            <fx:reference source="grid9_text7" />
+            <fx:reference source="grid9_text8" />
+            <fx:reference source="grid9_text9" />
+        </ArrayList>
+    </fx:define>
+
 </BorderPane>
